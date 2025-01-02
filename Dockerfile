@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     libclang-dev \
     libcurl4-openssl-dev \
     libz-dev \
+    libxrandr-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install wasm32 target for Rust

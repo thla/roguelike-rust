@@ -24,6 +24,8 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "rustc --version",
+	"postCreateCommand": "sudo apt update && sudo apt install cmake libx11-dev libgl1-mesa-glx libxrandr-dev libxcursor-dev libxi-dev libegl1-mesa libfontconfig-dev -y ",
+
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
